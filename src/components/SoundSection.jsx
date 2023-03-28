@@ -14,7 +14,7 @@ function SoundSection() {
                     <button className='button'>Buy</button>
                 </li>
                 <li>
-                    <a href='' className='link'>Learn more</a>
+                    <a href='' className=''>Learn more</a>
                 </li>
             </ul>
                 </div>

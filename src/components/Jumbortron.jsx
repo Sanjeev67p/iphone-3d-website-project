@@ -10,7 +10,7 @@ function Jumbotron() {
             top: element?.getBoundingClientRect().top,
             left: 0,
             behavior:'smooth'
-        })
+        });
     }
 
     return (
@@ -24,7 +24,7 @@ function Jumbotron() {
                     <button className='button'>Buy</button>
                 </li>
                 <li>
-                    <a href='' className='link' onClick={handleLearnMore}>Learn more</a>
+                    <a className='link' onClick={handleLearnMore}>Learn more</a>
                 </li>
                 <img className='iphone-img' src={HoldingPhone} alt="iPhone" />
             </ul>
